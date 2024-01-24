@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+
+<style>
+*{
+  margin: 0;
+  padding:0;
+}
+body{
+  background-color: #ebf7fa;
+}
+  .na{
+    height: 60px;
+    width:100%;
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: row-reverse;
+   align-items: center;
+   color: white;
+   font-weight: 500;
+  
+    
+  }
+  .home{
+    padding: 10px;
+  }
+  .login{
+    padding: 10px;
+    margin-right: 20%;
+  }
+  #logo{
+    position: absolute;
+    left: 20px;
+    top:10px;
+    height: 40px;
+    width:30px;
+  }
+  .tick{
+    height: 75px;
+    width:75px;
+    background-color: green;
+    border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: white;
+  font-weight: 700;
+  font-size: 50px;
+  }
+  .center{
+    display: grid;
+    place-items: center;
+    margin-top: 15px;
+  }
+  .green{
+    color: green;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .certino{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 5px;
+  }
+  .Ndetail{
+    font-size: 20px;
+    font-weight: 550;
+    color: #8187e6;
+    margin-top: 30px;
+  }
+  .fdetail{
+    font-size: 16px;
+    font-weight: 550;
+    color: #8187e6;
+    margin-top: 5px;
+  }
+  .foot{
+    height:100px;
+    width:100%;
+    background-color: dodgerblue;
+    position :absolute;
+    bottom: 0;
+    left:0;
+   display: flex;
+   
+    color: white;
+ 
+  }
+.copyright{
+  text-align: center;
+  margin: 5px;
+}
+.nic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  height:60px;
+  width: 100%;
+  
+}
+</style>
+</head>
+<body>
+<div class="na">
+  <img src="biswa_bangla.png" alt="bangla" id="logo">
+  <div class="login" id="login">login</div>
+  <div class="home" id="home">Home</div>
+  
+</div>
+<div class="center">
+<div class="tick"> ✓</div>
+<div><span class="green">Certificate Verified</span></div>
+<span class="certino">WB1202OBC2023001807</span>
+<span class="Ndetail">Name: RAHUL SHAH</span>
+<span class="fdetail">Father Name: PRAMOD SHAH</span>
+<span class="fdetail">Issue Date: 2023-09-21</span>
+<span class="fdetail">Caste: OBC-B</span>
+</div>
+<footer class="foot">
+  <div>
+    <div class="copyright">© Copyright <strong>WB Backward Classes Welfare Department.</strong>
+    All Right Reserved.</div>
+    <div class="nic"><strong>Design By</strong><img src="nic_logo.png" alt="nic_logo.png" style=" height: 20px; width:130px; "></div>
+  </div>
+  
+</footer>
+  
+</body>
+<script>
+  document.getElementById('login').onclick= function(){
+    location.href="https://castcertificatewb.gov.in/login";
+  }
+    document.getElementById('home').onclick= function(){
+    location.href="https://castcertificatewb.gov.in/";
+  }
+    document.getElementById('logo').onclick= function(){
+    location.href="https://castcertificatewb.gov.in/";
+  }
+</script>
+</html>

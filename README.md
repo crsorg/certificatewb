@@ -3,3 +3,5 @@ i am founder of **wing2rah** and
 am a *coder*
 > [ ! IMPORTANT]
 > NICE
+
+![ logi]( nic_logo.png)
